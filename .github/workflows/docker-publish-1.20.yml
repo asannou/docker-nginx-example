@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - master
-  pull_request:
+  workflow_run:
+    workflows:
+      - Dependabot auto-merge
     types:
-      - closed
-    branches:
-      - master
+      - completed
   workflow_dispatch:
 
 jobs:
