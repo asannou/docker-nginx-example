@@ -1,2 +1,2 @@
-FROM nginx:1.25@sha256:2f5b3c68024b82d902793a2611f78bad115d14e1f3165c7918772a1fe569656f
+FROM nginx:1.25@sha256:74c1bb767ec295c0fcab2f4057f5f402953979c9385b86951673d335aa537536
 COPY static-html-directory /usr/share/nginx/html
